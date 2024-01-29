@@ -1,0 +1,90 @@
+.myDiv {
+    border: 200px solid white; }
+
+
+.body {
+    background-color: #fff;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.page {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+ul {
+    list-style-type: disc;
+}
+
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Century Gothic', 'Futura', 'Verdana', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.recipe-image img {
+    width: 40%;
+    margin: 0 30px 30px 0;
+    float: left;
+}
+
+.recipe-info {
+    text-align: left;
+    overflow: hidden;
+}
+
+h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Century Gothic', 'Futura', 'Verdana', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    padding: 1px 0;
+    margin-bottom: 30px;
+}
+ul {
+    list-style-type: none;
+    color:rgb(0, 0, 0);
+}
+
+.recipe-info p {
+    color: #404040;
+    margin: 5px 0 30px 0;
+}
+
+.user-comments p {
+    background-color: #FFFFC8;
+    margin: 0;
+    padding: 5px;
+    font-style: italic;
+    text-align: left;
+}
+
+.footer {
+    clear: both;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #A4A400;
+    margin: 5px 0;
+}
+

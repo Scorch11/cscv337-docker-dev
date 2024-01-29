@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f7f4; /* Light green background for the body */
+}
+
+header {
+    background: #4caf50; /* Green header background */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #66bb6a; /* Lighter green background for hero section */
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.featured-pie {
+    padding: 50px 20px;
+    background: #81c784; /* Even lighter green background for featured pie section */
+    text-align: center;
+}
+
+.featured-pie h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #388e3c; /* A slightly darker green for hover effect */
+}
+
+.about-us {
+    background-color: #a5d6a7; /* Soft green background for about us section */
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #2e7d32; /* Dark green footer background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
